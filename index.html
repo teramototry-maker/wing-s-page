@@ -3,8 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wing J Piercings</title>
+
+    <!-- Core SEO -->
+    <title>
+      Wing J's Piercing | Body Piercing in YOUR-CITY, Negros Oriental
+    </title>
+    <meta
+      name="description"
+      content="Professional body piercing in YOUR-CITY: lobe, helix, nostril, eyebrow and navel piercings with quality jewelry. Send an inquiry and book a session."
+    />
+    <link rel="canonical" href="https://YOUR-DOMAIN.com/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#111111" />
+
+    <!-- Social sharing -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Wing J's Piercing | Body Piercing in YOUR-CITY"
+    />
+    <meta
+      property="og:description"
+      content="Make it yours. Wear it with confidence. Book a body piercing session with Wing."
+    />
+    <meta property="og:url" content="https://YOUR-DOMAIN.com/" />
+    <meta
+      property="og:image"
+      content="https://YOUR-DOMAIN.com/assets/images/pic1.jpg"
+    />
+
+    <!-- Favicon (add a favicon.png in the root) -->
+    <link rel="icon" href="/favicon.png" />
+
     <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HealthAndBeautyBusiness",
+        "name": "Wing J's Piercing",
+        "description": "Body piercing studio offering lobe, helix, nostril, eyebrow and navel piercings.",
+        "url": "https://wing-j-piercing.netlify.app",
+        "image": "https://YOUR-DOMAIN.com/assets/images/pic1.jpg",
+        "telephone": "+639605102205",
+        "email": "jardeleza.wing@gmail.com",
+        "address": {
+          "@type": "Room M32, 3/F Twin Arcade Building, Perdices Street",
+          "streetAddress": "Room M32, 3/F Twin Arcade Building, Perdices Street",
+          "addressLocality": "Dumaguete City",
+          "addressRegion": "Negros Oriental",
+          "addressCountry": "PH"
+        },
+        "sameAs": [
+          "https://web.facebook.com/wing.jardeleza",
+          "https://www.instagram.com/wing.jardeleza"
+        ]
+      }
+    </script>
   </head>
   <body>
     <!--header-section-->
@@ -28,7 +84,7 @@
     <header>
       <div class="container">
         <img
-          src="assets/images/pic1.jpg"
+          src="assets/images/wing-body-piercer.jpg"
           alt="Image of Wing cross-handed, profile picture of her."
           height="400"
           width="300"
@@ -67,7 +123,7 @@
             </p>
           </div>
           <img
-            src="assets/images/pic2.jpg"
+            src="assets/images/wing-body-piercer2.jpg"
             alt="image of wing taking a photo of herself through a window"
             height="400"
             width="300"
@@ -93,26 +149,41 @@
               style="grid-area: img-1"
               src="assets/images/lobe.jpg"
               alt="sample of lobe piercings"
+              width="600"
+              height="600"
+              loading="lazy"
             />
             <img
               style="grid-area: img-2"
               src="assets/images/belly.jpg"
               alt="sample of belly-button piercings"
+              width="600"
+              height="600"
+              loading="lazy"
             />
             <img
               style="grid-area: img-3"
               src="assets/images/eye-brow.jpg"
               alt="sample of eye-brow piercings"
+              width="600"
+              height="600"
+              loading="lazy"
             />
             <img
               style="grid-area: img-4"
               src="assets/images/ear.jpg"
               alt="sample of helix part of the ear piercings"
+              width="600"
+              height="600"
+              loading="lazy"
             />
             <img
               style="grid-area: img-5"
               src="assets/images/nose.jpg"
               alt="sample of nostril piercings"
+              width="600"
+              height="600"
+              loading="lazy"
             />
           </div>
         </div>
@@ -137,6 +208,7 @@
             height="400"
             width="300"
             class="about-image"
+            loading="lazy"
           />
         </div>
       </section>
@@ -467,8 +539,9 @@
             <form
               id="contact-form"
               class="contact-form"
-              action="#"
+              action="https://formspree.io/f/mppqrbnj"
               method="POST"
+              data-netlify="true"
               hidden
             >
               <label for="name">Name</label>
@@ -481,7 +554,7 @@
               <input type="tel" id="phone" name="phone" required />
 
               <label for="pierce-type">Pierce Type</label>
-              <select id="project-type" name="project-type">
+              <select id="pierce-type" name="pierce-type">
                 <option value="Earlobe">Earlobe</option>
                 <option value="Helix">Helix</option>
                 <option value="Nostril">Nostril</option>
@@ -519,7 +592,7 @@
               src="assets/icons/facebook-square-icon.svg"
               width="40"
               height="40"
-              alt="facebook-square-icon"
+              alt=""
               class="icon-img"
             /><span>Visit me facebook</span></a
           >
@@ -532,7 +605,7 @@
               src="assets/icons/instagram.svg"
               width="40"
               height="40"
-              alt="instagram-square-icon"
+              alt=""
               class="icon-img"
             /><span>Check me on Instagram</span></a
           >
@@ -546,7 +619,7 @@
               src="assets/icons/wa-whatsapp-icon.svg"
               width="40"
               height="40"
-              alt="whatsapp-icon"
+              alt=""
               class="icon-img"
             />
             <span>Message us on WhatsApp</span>
@@ -566,7 +639,7 @@
               src="assets/icons/facebook-square-icon.svg"
               width="40"
               height="40"
-              alt="facebook-square-icon"
+              alt=""
               class="icon-img"
             /><span>Black Rose Tattoo Studio</span></a
           >
@@ -576,7 +649,7 @@
     <footer>
       <div class="container">
         <p>
-          &copy; 2026 My Blog. All rights reserved.
+          &copy; 2026 Wing J's Piercing.
           <a href="mailto:jardeleza.wing@gmail.com">Email me</a>
         </p>
         <p>Developed by Atraeon Solutions</p>
